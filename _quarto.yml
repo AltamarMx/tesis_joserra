@@ -1,0 +1,25 @@
+project:
+  type: book  
+  output-dir: docs
+
+
+book:
+  title: "tesis_joserra"
+  author: "Norah Jones"
+  date: "18/9/2024"
+  chapters:
+    - index.qmd
+    - ./caps/intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
